@@ -28,7 +28,7 @@ cd Messenger-Chatbot-Auto-Reply-For-Personal-account/
 Third:
 
 ```sh
-pip3 -r install requirements.txt
+pip3 install -r requirements.txt
 ```
 Fourth:
 
