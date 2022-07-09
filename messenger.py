@@ -50,9 +50,11 @@ def main():
     email = input("YOUR EMAIL:")
     passwd = input("YOUR PASSWORD:")
     login(email, passwd)
-    ascii_banner = pyfiglet.figlet_format("Successfully logged in, Script is now running")
+    ascii_banner = pyfiglet.figlet_format("Successfully logged in")
     printy(ascii_banner, "nB" )
-    message = input("Your message that you want to auto reply")
+    message = input("Your message that you want to auto reply: ")
+    ascii_banner = pyfiglet.figlet_format("Script is now running")
+    printy(ascii_banner, "rB" )
     sendMessage(message)
 
 
